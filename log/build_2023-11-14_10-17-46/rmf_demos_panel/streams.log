@@ -1,0 +1,59 @@
+[2.032s] Invoking command in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_panel': AMENT_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/leo/A_rmf_tests/build/rmf_demos_panel/prefix_override:/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rmf_demos_panel build --build-base /home/leo/A_rmf_tests/build/rmf_demos_panel/build install --record /home/leo/A_rmf_tests/build/rmf_demos_panel/install.log --single-version-externally-managed
+[2.267s] running egg_info
+[2.267s] creating ../../../build/rmf_demos_panel/rmf_demos_panel.egg-info
+[2.282s] writing ../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/PKG-INFO
+[2.282s] writing dependency_links to ../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/dependency_links.txt
+[2.283s] writing entry points to ../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/entry_points.txt
+[2.283s] writing requirements to ../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/requires.txt
+[2.283s] writing top-level names to ../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/top_level.txt
+[2.283s] writing manifest file '../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/SOURCES.txt'
+[2.319s] reading manifest file '../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/SOURCES.txt'
+[2.320s] writing manifest file '../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/SOURCES.txt'
+[2.320s] running build
+[2.321s] running build_py
+[2.321s] creating /home/leo/A_rmf_tests/build/rmf_demos_panel/build
+[2.321s] creating /home/leo/A_rmf_tests/build/rmf_demos_panel/build/lib
+[2.321s] creating /home/leo/A_rmf_tests/build/rmf_demos_panel/build/lib/rmf_demos_panel
+[2.321s] copying rmf_demos_panel/__init__.py -> /home/leo/A_rmf_tests/build/rmf_demos_panel/build/lib/rmf_demos_panel
+[2.321s] copying rmf_demos_panel/dispatcher_client.py -> /home/leo/A_rmf_tests/build/rmf_demos_panel/build/lib/rmf_demos_panel
+[2.321s] copying rmf_demos_panel/rmf_msg_observer.py -> /home/leo/A_rmf_tests/build/rmf_demos_panel/build/lib/rmf_demos_panel
+[2.321s] copying rmf_demos_panel/simple_api_server.py -> /home/leo/A_rmf_tests/build/rmf_demos_panel/build/lib/rmf_demos_panel
+[2.322s] running install
+[2.322s] /home/leo/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.322s] !!
+[2.322s] 
+[2.322s]         ********************************************************************************
+[2.322s]         Please avoid running ``setup.py`` directly.
+[2.322s]         Instead, use pypa/build, pypa/installer or other
+[2.322s]         standards-based tools.
+[2.322s] 
+[2.323s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.323s]         ********************************************************************************
+[2.323s] 
+[2.323s] !!
+[2.323s]   self.initialize_options()
+[2.329s] running install_lib
+[2.351s] creating /home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel
+[2.351s] copying /home/leo/A_rmf_tests/build/rmf_demos_panel/build/lib/rmf_demos_panel/__init__.py -> /home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel
+[2.351s] copying /home/leo/A_rmf_tests/build/rmf_demos_panel/build/lib/rmf_demos_panel/dispatcher_client.py -> /home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel
+[2.351s] copying /home/leo/A_rmf_tests/build/rmf_demos_panel/build/lib/rmf_demos_panel/rmf_msg_observer.py -> /home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel
+[2.351s] copying /home/leo/A_rmf_tests/build/rmf_demos_panel/build/lib/rmf_demos_panel/simple_api_server.py -> /home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel
+[2.352s] byte-compiling /home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel/__init__.py to __init__.cpython-310.pyc
+[2.352s] byte-compiling /home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel/dispatcher_client.py to dispatcher_client.cpython-310.pyc
+[2.355s] byte-compiling /home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel/rmf_msg_observer.py to rmf_msg_observer.cpython-310.pyc
+[2.356s] byte-compiling /home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel/simple_api_server.py to simple_api_server.cpython-310.pyc
+[2.357s] running install_data
+[2.378s] creating /home/leo/A_rmf_tests/install/rmf_demos_panel/share/ament_index
+[2.382s] creating /home/leo/A_rmf_tests/install/rmf_demos_panel/share/ament_index/resource_index
+[2.383s] creating /home/leo/A_rmf_tests/install/rmf_demos_panel/share/ament_index/resource_index/packages
+[2.383s] copying resource/rmf_demos_panel -> /home/leo/A_rmf_tests/install/rmf_demos_panel/share/ament_index/resource_index/packages
+[2.383s] copying package.xml -> /home/leo/A_rmf_tests/install/rmf_demos_panel/share/rmf_demos_panel
+[2.383s] creating /home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel/templates
+[2.383s] creating /home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel/static
+[2.383s] creating /home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel/static/dist
+[2.383s] running install_egg_info
+[2.402s] Copying ../../../build/rmf_demos_panel/rmf_demos_panel.egg-info to /home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel-2.2.2-py3.10.egg-info
+[2.403s] running install_scripts
+[2.601s] Installing simple_api_server script to /home/leo/A_rmf_tests/install/rmf_demos_panel/lib/rmf_demos_panel
+[2.601s] writing list of installed files to '/home/leo/A_rmf_tests/build/rmf_demos_panel/install.log'
+[2.647s] Invoked command in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_panel' returned '0': AMENT_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/leo/A_rmf_tests/build/rmf_demos_panel/prefix_override:/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rmf_demos_panel build --build-base /home/leo/A_rmf_tests/build/rmf_demos_panel/build install --record /home/leo/A_rmf_tests/build/rmf_demos_panel/install.log --single-version-externally-managed

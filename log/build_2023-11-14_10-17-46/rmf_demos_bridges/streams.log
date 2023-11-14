@@ -1,0 +1,54 @@
+[2.137s] Invoking command in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_bridges': PYTHONPATH=/home/leo/A_rmf_tests/build/rmf_demos_bridges/prefix_override:/home/leo/A_rmf_tests/install/rmf_demos_bridges/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rmf_demos_bridges build --build-base /home/leo/A_rmf_tests/build/rmf_demos_bridges/build install --record /home/leo/A_rmf_tests/build/rmf_demos_bridges/install.log --single-version-externally-managed
+[2.431s] running egg_info
+[2.431s] creating ../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info
+[2.452s] writing ../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/PKG-INFO
+[2.452s] writing dependency_links to ../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/dependency_links.txt
+[2.453s] writing entry points to ../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/entry_points.txt
+[2.453s] writing requirements to ../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/requires.txt
+[2.453s] writing top-level names to ../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/top_level.txt
+[2.453s] writing manifest file '../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/SOURCES.txt'
+[2.499s] reading manifest file '../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/SOURCES.txt'
+[2.499s] writing manifest file '../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/SOURCES.txt'
+[2.499s] running build
+[2.500s] running build_py
+[2.500s] creating /home/leo/A_rmf_tests/build/rmf_demos_bridges/build
+[2.500s] creating /home/leo/A_rmf_tests/build/rmf_demos_bridges/build/lib
+[2.500s] creating /home/leo/A_rmf_tests/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[2.500s] copying rmf_demos_bridges/__init__.py -> /home/leo/A_rmf_tests/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[2.500s] copying rmf_demos_bridges/fleet_socketio_bridge.py -> /home/leo/A_rmf_tests/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[2.500s] copying rmf_demos_bridges/fleet_robotmanager_mqtt_bridge.py -> /home/leo/A_rmf_tests/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[2.500s] running install
+[2.500s] /home/leo/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.501s] !!
+[2.501s] 
+[2.501s]         ********************************************************************************
+[2.501s]         Please avoid running ``setup.py`` directly.
+[2.501s]         Instead, use pypa/build, pypa/installer or other
+[2.501s]         standards-based tools.
+[2.501s] 
+[2.501s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.501s]         ********************************************************************************
+[2.501s] 
+[2.501s] !!
+[2.501s]   self.initialize_options()
+[2.514s] running install_lib
+[2.540s] creating /home/leo/A_rmf_tests/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges
+[2.540s] copying /home/leo/A_rmf_tests/build/rmf_demos_bridges/build/lib/rmf_demos_bridges/__init__.py -> /home/leo/A_rmf_tests/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges
+[2.540s] copying /home/leo/A_rmf_tests/build/rmf_demos_bridges/build/lib/rmf_demos_bridges/fleet_socketio_bridge.py -> /home/leo/A_rmf_tests/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges
+[2.540s] copying /home/leo/A_rmf_tests/build/rmf_demos_bridges/build/lib/rmf_demos_bridges/fleet_robotmanager_mqtt_bridge.py -> /home/leo/A_rmf_tests/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges
+[2.540s] byte-compiling /home/leo/A_rmf_tests/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges/__init__.py to __init__.cpython-310.pyc
+[2.540s] byte-compiling /home/leo/A_rmf_tests/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges/fleet_socketio_bridge.py to fleet_socketio_bridge.cpython-310.pyc
+[2.540s] byte-compiling /home/leo/A_rmf_tests/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges/fleet_robotmanager_mqtt_bridge.py to fleet_robotmanager_mqtt_bridge.cpython-310.pyc
+[2.540s] running install_data
+[2.571s] creating /home/leo/A_rmf_tests/install/rmf_demos_bridges/share/ament_index
+[2.571s] creating /home/leo/A_rmf_tests/install/rmf_demos_bridges/share/ament_index/resource_index
+[2.571s] creating /home/leo/A_rmf_tests/install/rmf_demos_bridges/share/ament_index/resource_index/packages
+[2.571s] copying resource/rmf_demos_bridges -> /home/leo/A_rmf_tests/install/rmf_demos_bridges/share/ament_index/resource_index/packages
+[2.572s] copying package.xml -> /home/leo/A_rmf_tests/install/rmf_demos_bridges/share/rmf_demos_bridges
+[2.572s] running install_egg_info
+[2.580s] Copying ../../../build/rmf_demos_bridges/rmf_demos_bridges.egg-info to /home/leo/A_rmf_tests/install/rmf_demos_bridges/lib/python3.10/site-packages/rmf_demos_bridges-2.2.2-py3.10.egg-info
+[2.581s] running install_scripts
+[2.780s] Installing fleet_robotmanager_mqtt_bridge script to /home/leo/A_rmf_tests/install/rmf_demos_bridges/lib/rmf_demos_bridges
+[2.780s] Installing fleet_socketio_bridge script to /home/leo/A_rmf_tests/install/rmf_demos_bridges/lib/rmf_demos_bridges
+[2.780s] writing list of installed files to '/home/leo/A_rmf_tests/build/rmf_demos_bridges/install.log'
+[2.817s] Invoked command in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_bridges' returned '0': PYTHONPATH=/home/leo/A_rmf_tests/build/rmf_demos_bridges/prefix_override:/home/leo/A_rmf_tests/install/rmf_demos_bridges/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rmf_demos_bridges build --build-base /home/leo/A_rmf_tests/build/rmf_demos_bridges/build install --record /home/leo/A_rmf_tests/build/rmf_demos_bridges/install.log --single-version-externally-managed
