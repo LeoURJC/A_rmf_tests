@@ -1,0 +1,36 @@
+[3.270s] Invoking command in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_fleet_adapter': PYTHONPATH=/home/leo/A_rmf_tests/build/rmf_demos_fleet_adapter/prefix_override:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rmf_demos_fleet_adapter build --build-base /home/leo/A_rmf_tests/build/rmf_demos_fleet_adapter/build install --record /home/leo/A_rmf_tests/build/rmf_demos_fleet_adapter/install.log --single-version-externally-managed
+[3.845s] running egg_info
+[3.887s] writing ../../../build/rmf_demos_fleet_adapter/rmf_demos_fleet_adapter.egg-info/PKG-INFO
+[3.898s] writing dependency_links to ../../../build/rmf_demos_fleet_adapter/rmf_demos_fleet_adapter.egg-info/dependency_links.txt
+[3.898s] writing entry points to ../../../build/rmf_demos_fleet_adapter/rmf_demos_fleet_adapter.egg-info/entry_points.txt
+[3.898s] writing requirements to ../../../build/rmf_demos_fleet_adapter/rmf_demos_fleet_adapter.egg-info/requires.txt
+[3.898s] writing top-level names to ../../../build/rmf_demos_fleet_adapter/rmf_demos_fleet_adapter.egg-info/top_level.txt
+[4.061s] reading manifest file '../../../build/rmf_demos_fleet_adapter/rmf_demos_fleet_adapter.egg-info/SOURCES.txt'
+[4.061s] writing manifest file '../../../build/rmf_demos_fleet_adapter/rmf_demos_fleet_adapter.egg-info/SOURCES.txt'
+[4.061s] running build
+[4.062s] running build_py
+[4.062s] running install
+[4.062s] /home/leo/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[4.062s] !!
+[4.062s] 
+[4.062s]         ********************************************************************************
+[4.062s]         Please avoid running ``setup.py`` directly.
+[4.062s]         Instead, use pypa/build, pypa/installer or other
+[4.062s]         standards-based tools.
+[4.062s] 
+[4.062s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[4.063s]         ********************************************************************************
+[4.063s] 
+[4.063s] !!
+[4.063s]   self.initialize_options()
+[4.063s] running install_lib
+[4.101s] running install_data
+[4.158s] running install_egg_info
+[4.237s] removing '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages/rmf_demos_fleet_adapter-2.2.2-py3.10.egg-info' (and everything under it)
+[4.237s] Copying ../../../build/rmf_demos_fleet_adapter/rmf_demos_fleet_adapter.egg-info to /home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages/rmf_demos_fleet_adapter-2.2.2-py3.10.egg-info
+[4.239s] running install_scripts
+[4.665s] Installing easy_fleet_adapter script to /home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/rmf_demos_fleet_adapter
+[4.665s] Installing fleet_adapter script to /home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/rmf_demos_fleet_adapter
+[4.665s] Installing fleet_manager script to /home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/rmf_demos_fleet_adapter
+[4.665s] writing list of installed files to '/home/leo/A_rmf_tests/build/rmf_demos_fleet_adapter/install.log'
+[4.722s] Invoked command in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_fleet_adapter' returned '0': PYTHONPATH=/home/leo/A_rmf_tests/build/rmf_demos_fleet_adapter/prefix_override:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rmf_demos_fleet_adapter build --build-base /home/leo/A_rmf_tests/build/rmf_demos_fleet_adapter/build install --record /home/leo/A_rmf_tests/build/rmf_demos_fleet_adapter/install.log --single-version-externally-managed

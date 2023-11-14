@@ -1,0 +1,45 @@
+[4.903s] Invoking command in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_tasks': PYTHONPATH=/home/leo/A_rmf_tests/build/rmf_demos_tasks/prefix_override:/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rmf_demos_tasks build --build-base /home/leo/A_rmf_tests/build/rmf_demos_tasks/build install --record /home/leo/A_rmf_tests/build/rmf_demos_tasks/install.log --single-version-externally-managed
+[5.577s] running egg_info
+[5.612s] writing ../../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/PKG-INFO
+[5.613s] writing dependency_links to ../../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/dependency_links.txt
+[5.613s] writing entry points to ../../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/entry_points.txt
+[5.614s] writing requirements to ../../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/requires.txt
+[5.614s] writing top-level names to ../../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/top_level.txt
+[5.683s] reading manifest file '../../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/SOURCES.txt'
+[5.686s] writing manifest file '../../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/SOURCES.txt'
+[5.687s] running build
+[5.687s] running build_py
+[5.690s] running install
+[5.690s] /home/leo/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[5.690s] !!
+[5.691s] 
+[5.691s]         ********************************************************************************
+[5.691s]         Please avoid running ``setup.py`` directly.
+[5.691s]         Instead, use pypa/build, pypa/installer or other
+[5.691s]         standards-based tools.
+[5.691s] 
+[5.691s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[5.691s]         ********************************************************************************
+[5.691s] 
+[5.692s] !!
+[5.692s]   self.initialize_options()
+[5.705s] running install_lib
+[5.742s] running install_data
+[5.774s] running install_egg_info
+[5.818s] removing '/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks-2.2.2-py3.10.egg-info' (and everything under it)
+[5.818s] Copying ../../../build/rmf_demos_tasks/rmf_demos_tasks.egg-info to /home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/python3.10/site-packages/rmf_demos_tasks-2.2.2-py3.10.egg-info
+[5.819s] running install_scripts
+[6.370s] Installing cancel_task script to /home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[6.370s] Installing dispatch_action script to /home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[6.370s] Installing dispatch_clean script to /home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[6.371s] Installing dispatch_delivery script to /home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[6.371s] Installing dispatch_go_to_place script to /home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[6.375s] Installing dispatch_loop script to /home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[6.375s] Installing dispatch_patrol script to /home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[6.375s] Installing dispatch_teleop script to /home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[6.375s] Installing mock_docker script to /home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[6.376s] Installing request_lift script to /home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[6.376s] Installing request_loop script to /home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[6.376s] Installing teleop_robot script to /home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[6.390s] writing list of installed files to '/home/leo/A_rmf_tests/build/rmf_demos_tasks/install.log'
+[6.458s] Invoked command in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_tasks' returned '0': PYTHONPATH=/home/leo/A_rmf_tests/build/rmf_demos_tasks/prefix_override:/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rmf_demos_tasks build --build-base /home/leo/A_rmf_tests/build/rmf_demos_tasks/build install --record /home/leo/A_rmf_tests/build/rmf_demos_tasks/install.log --single-version-externally-managed

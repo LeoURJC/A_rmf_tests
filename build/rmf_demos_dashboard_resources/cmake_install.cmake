@@ -102,6 +102,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/office"
     "/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/hotel"
     "/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/clinic"
+    "/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/testA"
     )
 endif()
 

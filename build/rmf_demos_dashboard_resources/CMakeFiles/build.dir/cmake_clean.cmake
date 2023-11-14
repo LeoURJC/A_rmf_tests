@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/airport_terminal/main.json"
   "/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/office/main.json"
+  "/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/testA/main.json"
   "CMakeFiles/build"
 )
 

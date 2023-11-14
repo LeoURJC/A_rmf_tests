@@ -1,0 +1,678 @@
+[0.898s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.898s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f9ef8025480>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9ef84d1750>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9ef84d1750>>, mixin_verb=('build',))
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.937s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/leo/A_rmf_tests'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos) by extension 'ignore_ament_install'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos) by extensions ['colcon_pkg']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos) by extension 'colcon_pkg'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos) by extensions ['colcon_meta']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos) by extension 'colcon_meta'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos) by extensions ['ros']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos) by extension 'ros'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos) by extensions ['cmake', 'python']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos) by extension 'cmake'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos) by extension 'python'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos) by extensions ['python_setup_py']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos) by extension 'python_setup_py'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/docs) by extension 'ignore'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/docs) by extension 'ignore_ament_install'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/docs) by extensions ['colcon_pkg']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/docs) by extension 'colcon_pkg'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/docs) by extensions ['colcon_meta']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/docs) by extension 'colcon_meta'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/docs) by extensions ['ros']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/docs) by extension 'ros'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/docs) by extensions ['cmake', 'python']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/docs) by extension 'cmake'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/docs) by extension 'python'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/docs) by extensions ['python_setup_py']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/docs) by extension 'python_setup_py'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos) by extension 'ignore'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos) by extension 'ignore_ament_install'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos) by extensions ['colcon_pkg']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos) by extension 'colcon_pkg'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos) by extensions ['colcon_meta']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos) by extension 'colcon_meta'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos) by extensions ['ros']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos) by extension 'ros'
+[0.951s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmf_demos/rmf_demos' with type 'ros.ament_cmake' and name 'rmf_demos'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_assets) by extensions ['ignore', 'ignore_ament_install']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_assets) by extension 'ignore'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_assets) by extension 'ignore_ament_install'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_assets) by extensions ['colcon_pkg']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_assets) by extension 'colcon_pkg'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_assets) by extensions ['colcon_meta']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_assets) by extension 'colcon_meta'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_assets) by extensions ['ros']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_assets) by extension 'ros'
+[0.952s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmf_demos/rmf_demos_assets' with type 'ros.ament_cmake' and name 'rmf_demos_assets'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_bridges) by extensions ['ignore', 'ignore_ament_install']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_bridges) by extension 'ignore'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_bridges) by extension 'ignore_ament_install'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_bridges) by extensions ['colcon_pkg']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_bridges) by extension 'colcon_pkg'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_bridges) by extensions ['colcon_meta']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_bridges) by extension 'colcon_meta'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_bridges) by extensions ['ros']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_bridges) by extension 'ros'
+[0.952s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmf_demos/rmf_demos_bridges' with type 'ros.ament_python' and name 'rmf_demos_bridges'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_dashboard_resources) by extensions ['ignore', 'ignore_ament_install']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_dashboard_resources) by extension 'ignore'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_dashboard_resources) by extension 'ignore_ament_install'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_dashboard_resources) by extensions ['colcon_pkg']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_dashboard_resources) by extension 'colcon_pkg'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_dashboard_resources) by extensions ['colcon_meta']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_dashboard_resources) by extension 'colcon_meta'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_dashboard_resources) by extensions ['ros']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_dashboard_resources) by extension 'ros'
+[0.953s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmf_demos/rmf_demos_dashboard_resources' with type 'ros.ament_cmake' and name 'rmf_demos_dashboard_resources'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_fleet_adapter) by extensions ['ignore', 'ignore_ament_install']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_fleet_adapter) by extension 'ignore'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_fleet_adapter) by extension 'ignore_ament_install'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_fleet_adapter) by extensions ['colcon_pkg']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_fleet_adapter) by extension 'colcon_pkg'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_fleet_adapter) by extensions ['colcon_meta']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_fleet_adapter) by extension 'colcon_meta'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_fleet_adapter) by extensions ['ros']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_fleet_adapter) by extension 'ros'
+[0.953s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmf_demos/rmf_demos_fleet_adapter' with type 'ros.ament_python' and name 'rmf_demos_fleet_adapter'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_gz) by extensions ['ignore', 'ignore_ament_install']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_gz) by extension 'ignore'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_gz) by extension 'ignore_ament_install'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_gz) by extensions ['colcon_pkg']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_gz) by extension 'colcon_pkg'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_gz) by extensions ['colcon_meta']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_gz) by extension 'colcon_meta'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_gz) by extensions ['ros']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_gz) by extension 'ros'
+[0.954s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmf_demos/rmf_demos_gz' with type 'ros.ament_cmake' and name 'rmf_demos_gz'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_gz_classic) by extensions ['ignore', 'ignore_ament_install']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_gz_classic) by extension 'ignore'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_gz_classic) by extension 'ignore_ament_install'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_gz_classic) by extensions ['colcon_pkg']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_gz_classic) by extension 'colcon_pkg'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_gz_classic) by extensions ['colcon_meta']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_gz_classic) by extension 'colcon_meta'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_gz_classic) by extensions ['ros']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_gz_classic) by extension 'ros'
+[0.955s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmf_demos/rmf_demos_gz_classic' with type 'ros.ament_cmake' and name 'rmf_demos_gz_classic'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_maps) by extensions ['ignore', 'ignore_ament_install']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_maps) by extension 'ignore'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_maps) by extension 'ignore_ament_install'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_maps) by extensions ['colcon_pkg']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_maps) by extension 'colcon_pkg'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_maps) by extensions ['colcon_meta']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_maps) by extension 'colcon_meta'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_maps) by extensions ['ros']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_maps) by extension 'ros'
+[0.955s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmf_demos/rmf_demos_maps' with type 'ros.ament_cmake' and name 'rmf_demos_maps'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_panel) by extensions ['ignore', 'ignore_ament_install']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_panel) by extension 'ignore'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_panel) by extension 'ignore_ament_install'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_panel) by extensions ['colcon_pkg']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_panel) by extension 'colcon_pkg'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_panel) by extensions ['colcon_meta']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_panel) by extension 'colcon_meta'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_panel) by extensions ['ros']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_panel) by extension 'ros'
+[0.956s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmf_demos/rmf_demos_panel' with type 'ros.ament_python' and name 'rmf_demos_panel'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_tasks) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_tasks) by extension 'ignore'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_tasks) by extension 'ignore_ament_install'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_tasks) by extensions ['colcon_pkg']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_tasks) by extension 'colcon_pkg'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_tasks) by extensions ['colcon_meta']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_tasks) by extension 'colcon_meta'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_tasks) by extensions ['ros']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmf_demos/rmf_demos_tasks) by extension 'ros'
+[0.957s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmf_demos/rmf_demos_tasks' with type 'ros.ament_python' and name 'rmf_demos_tasks'
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.030s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.030s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.051s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/leo/tfg_leo_ws/install
+[1.062s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/leo/ros2_ws/install
+[1.073s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 432 installed packages in /opt/ros/humble
+[1.074s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_assets' build argument 'cmake_args' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_assets' build argument 'cmake_target' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_assets' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_assets' build argument 'cmake_clean_cache' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_assets' build argument 'cmake_clean_first' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_assets' build argument 'cmake_force_configure' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_assets' build argument 'ament_cmake_args' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_assets' build argument 'catkin_cmake_args' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_assets' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.135s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_demos_assets' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leo/A_rmf_tests/build/rmf_demos_assets', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leo/A_rmf_tests/install/rmf_demos_assets', 'merge_install': False, 'path': '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_assets', 'symlink_install': False, 'test_result_base': None}
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_bridges' build argument 'cmake_args' from command line to 'None'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_bridges' build argument 'cmake_target' from command line to 'None'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_bridges' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_bridges' build argument 'cmake_clean_cache' from command line to 'False'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_bridges' build argument 'cmake_clean_first' from command line to 'False'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_bridges' build argument 'cmake_force_configure' from command line to 'False'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_bridges' build argument 'ament_cmake_args' from command line to 'None'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_bridges' build argument 'catkin_cmake_args' from command line to 'None'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_bridges' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.146s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_demos_bridges' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leo/A_rmf_tests/build/rmf_demos_bridges', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leo/A_rmf_tests/install/rmf_demos_bridges', 'merge_install': False, 'path': '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_bridges', 'symlink_install': False, 'test_result_base': None}
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_dashboard_resources' build argument 'cmake_args' from command line to 'None'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_dashboard_resources' build argument 'cmake_target' from command line to 'None'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_dashboard_resources' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_dashboard_resources' build argument 'cmake_clean_cache' from command line to 'False'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_dashboard_resources' build argument 'cmake_clean_first' from command line to 'False'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_dashboard_resources' build argument 'cmake_force_configure' from command line to 'False'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_dashboard_resources' build argument 'ament_cmake_args' from command line to 'None'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_dashboard_resources' build argument 'catkin_cmake_args' from command line to 'None'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_dashboard_resources' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.156s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_demos_dashboard_resources' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leo/A_rmf_tests/build/rmf_demos_dashboard_resources', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources', 'merge_install': False, 'path': '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources', 'symlink_install': False, 'test_result_base': None}
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_fleet_adapter' build argument 'cmake_args' from command line to 'None'
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_fleet_adapter' build argument 'cmake_target' from command line to 'None'
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_fleet_adapter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_fleet_adapter' build argument 'cmake_clean_cache' from command line to 'False'
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_fleet_adapter' build argument 'cmake_clean_first' from command line to 'False'
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_fleet_adapter' build argument 'cmake_force_configure' from command line to 'False'
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_fleet_adapter' build argument 'ament_cmake_args' from command line to 'None'
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_fleet_adapter' build argument 'catkin_cmake_args' from command line to 'None'
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_fleet_adapter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.168s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_demos_fleet_adapter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leo/A_rmf_tests/build/rmf_demos_fleet_adapter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter', 'merge_install': False, 'path': '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_fleet_adapter', 'symlink_install': False, 'test_result_base': None}
+[1.179s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_maps' build argument 'cmake_args' from command line to 'None'
+[1.179s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_maps' build argument 'cmake_target' from command line to 'None'
+[1.179s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_maps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.179s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_maps' build argument 'cmake_clean_cache' from command line to 'False'
+[1.179s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_maps' build argument 'cmake_clean_first' from command line to 'False'
+[1.179s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_maps' build argument 'cmake_force_configure' from command line to 'False'
+[1.179s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_maps' build argument 'ament_cmake_args' from command line to 'None'
+[1.179s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_maps' build argument 'catkin_cmake_args' from command line to 'None'
+[1.179s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_maps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.179s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_demos_maps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leo/A_rmf_tests/build/rmf_demos_maps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leo/A_rmf_tests/install/rmf_demos_maps', 'merge_install': False, 'path': '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_maps', 'symlink_install': False, 'test_result_base': None}
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_tasks' build argument 'cmake_args' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_tasks' build argument 'cmake_target' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_tasks' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_tasks' build argument 'cmake_clean_cache' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_tasks' build argument 'cmake_clean_first' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_tasks' build argument 'cmake_force_configure' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_tasks' build argument 'ament_cmake_args' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_tasks' build argument 'catkin_cmake_args' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_tasks' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.190s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_demos_tasks' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leo/A_rmf_tests/build/rmf_demos_tasks', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leo/A_rmf_tests/install/rmf_demos_tasks', 'merge_install': False, 'path': '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_tasks', 'symlink_install': False, 'test_result_base': None}
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_panel' build argument 'cmake_args' from command line to 'None'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_panel' build argument 'cmake_target' from command line to 'None'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_panel' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_panel' build argument 'cmake_clean_cache' from command line to 'False'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_panel' build argument 'cmake_clean_first' from command line to 'False'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_panel' build argument 'cmake_force_configure' from command line to 'False'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_panel' build argument 'ament_cmake_args' from command line to 'None'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_panel' build argument 'catkin_cmake_args' from command line to 'None'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_panel' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.200s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_demos_panel' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leo/A_rmf_tests/build/rmf_demos_panel', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leo/A_rmf_tests/install/rmf_demos_panel', 'merge_install': False, 'path': '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_panel', 'symlink_install': False, 'test_result_base': None}
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos' build argument 'cmake_args' from command line to 'None'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos' build argument 'cmake_target' from command line to 'None'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos' build argument 'cmake_clean_first' from command line to 'False'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos' build argument 'cmake_force_configure' from command line to 'False'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos' build argument 'ament_cmake_args' from command line to 'None'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.211s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leo/A_rmf_tests/build/rmf_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leo/A_rmf_tests/install/rmf_demos', 'merge_install': False, 'path': '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos', 'symlink_install': False, 'test_result_base': None}
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz' build argument 'cmake_args' from command line to 'None'
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz' build argument 'cmake_target' from command line to 'None'
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz' build argument 'cmake_clean_cache' from command line to 'False'
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz' build argument 'cmake_clean_first' from command line to 'False'
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz' build argument 'cmake_force_configure' from command line to 'False'
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz' build argument 'ament_cmake_args' from command line to 'None'
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz' build argument 'catkin_cmake_args' from command line to 'None'
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.221s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_demos_gz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leo/A_rmf_tests/build/rmf_demos_gz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leo/A_rmf_tests/install/rmf_demos_gz', 'merge_install': False, 'path': '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_gz', 'symlink_install': False, 'test_result_base': None}
+[1.232s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz_classic' build argument 'cmake_args' from command line to 'None'
+[1.232s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz_classic' build argument 'cmake_target' from command line to 'None'
+[1.232s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz_classic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.232s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz_classic' build argument 'cmake_clean_cache' from command line to 'False'
+[1.232s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz_classic' build argument 'cmake_clean_first' from command line to 'False'
+[1.232s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz_classic' build argument 'cmake_force_configure' from command line to 'False'
+[1.232s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz_classic' build argument 'ament_cmake_args' from command line to 'None'
+[1.232s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz_classic' build argument 'catkin_cmake_args' from command line to 'None'
+[1.232s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz_classic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.232s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_demos_gz_classic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leo/A_rmf_tests/build/rmf_demos_gz_classic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic', 'merge_install': False, 'path': '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_gz_classic', 'symlink_install': False, 'test_result_base': None}
+[1.242s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.254s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources' with build type 'ament_cmake'
+[1.254s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources'
+[1.266s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.315s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_assets' with build type 'ament_cmake'
+[1.315s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_assets'
+[1.327s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.327s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.377s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_fleet_adapter' with build type 'ament_python'
+[1.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_fleet_adapter', 'ament_prefix_path')
+[1.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/hook/ament_prefix_path.ps1'
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/hook/ament_prefix_path.dsv'
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/hook/ament_prefix_path.sh'
+[1.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.450s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_maps' with build type 'ament_cmake'
+[1.450s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_maps'
+[1.462s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.462s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.511s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_tasks' with build type 'ament_python'
+[1.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_tasks', 'ament_prefix_path')
+[1.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_tasks/share/rmf_demos_tasks/hook/ament_prefix_path.ps1'
+[1.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos_tasks/share/rmf_demos_tasks/hook/ament_prefix_path.dsv'
+[1.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_tasks/share/rmf_demos_tasks/hook/ament_prefix_path.sh'
+[1.536s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.536s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.586s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_bridges' with build type 'ament_python'
+[1.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_bridges', 'ament_prefix_path')
+[1.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_bridges/share/rmf_demos_bridges/hook/ament_prefix_path.ps1'
+[1.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos_bridges/share/rmf_demos_bridges/hook/ament_prefix_path.dsv'
+[1.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_bridges/share/rmf_demos_bridges/hook/ament_prefix_path.sh'
+[1.610s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.610s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/A_rmf_tests/build/rmf_demos_dashboard_resources': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble /usr/bin/cmake --build /home/leo/A_rmf_tests/build/rmf_demos_dashboard_resources -- -j8 -l8
+[1.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/A_rmf_tests/build/rmf_demos_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble /usr/bin/cmake --build /home/leo/A_rmf_tests/build/rmf_demos_assets -- -j8 -l8
+[1.824s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_fleet_adapter'
+[1.835s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.835s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/A_rmf_tests/build/rmf_demos_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble /usr/bin/cmake --build /home/leo/A_rmf_tests/build/rmf_demos_maps -- -j8 -l8
+[2.206s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_tasks'
+[2.251s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.251s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.830s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_bridges'
+[2.857s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.857s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/A_rmf_tests/build/rmf_demos_dashboard_resources' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble /usr/bin/cmake --build /home/leo/A_rmf_tests/build/rmf_demos_dashboard_resources -- -j8 -l8
+[3.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/A_rmf_tests/build/rmf_demos_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble /usr/bin/cmake --build /home/leo/A_rmf_tests/build/rmf_demos_assets -- -j8 -l8
+[3.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/A_rmf_tests/build/rmf_demos_dashboard_resources': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble /usr/bin/cmake --install /home/leo/A_rmf_tests/build/rmf_demos_dashboard_resources
+[3.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/A_rmf_tests/build/rmf_demos_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble /usr/bin/cmake --install /home/leo/A_rmf_tests/build/rmf_demos_assets
+[3.440s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_dashboard_resources)
+[3.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/A_rmf_tests/build/rmf_demos_dashboard_resources' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble /usr/bin/cmake --install /home/leo/A_rmf_tests/build/rmf_demos_dashboard_resources
+[3.487s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources' for CMake module files
+[3.488s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources' for CMake config files
+[3.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_dashboard_resources', 'cmake_prefix_path')
+[3.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/hook/cmake_prefix_path.ps1'
+[3.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/hook/cmake_prefix_path.dsv'
+[3.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/hook/cmake_prefix_path.sh'
+[3.554s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/bin'
+[3.554s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/lib/pkgconfig/rmf_demos_dashboard_resources.pc'
+[3.554s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/lib/python3.10/site-packages'
+[3.555s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/bin'
+[3.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/package.ps1'
+[3.620s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/package.dsv'
+[3.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/package.sh'
+[3.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/package.bash'
+[3.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/package.zsh'
+[3.624s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/colcon-core/packages/rmf_demos_dashboard_resources)
+[3.665s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_assets)
+[3.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/A_rmf_tests/build/rmf_demos_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble /usr/bin/cmake --install /home/leo/A_rmf_tests/build/rmf_demos_assets
+[3.700s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_assets' for CMake module files
+[3.701s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_assets' for CMake config files
+[3.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_assets', 'cmake_prefix_path')
+[3.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_assets/share/rmf_demos_assets/hook/cmake_prefix_path.ps1'
+[3.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos_assets/share/rmf_demos_assets/hook/cmake_prefix_path.dsv'
+[3.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_assets/share/rmf_demos_assets/hook/cmake_prefix_path.sh'
+[3.734s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_assets/bin'
+[3.734s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_assets/lib/pkgconfig/rmf_demos_assets.pc'
+[3.734s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_assets/lib/python3.10/site-packages'
+[3.734s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_assets/bin'
+[3.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_assets/share/rmf_demos_assets/package.ps1'
+[3.775s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/A_rmf_tests/install/rmf_demos_assets/share/rmf_demos_assets/package.dsv'
+[3.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_assets/share/rmf_demos_assets/package.sh'
+[3.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_assets/share/rmf_demos_assets/package.bash'
+[3.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_assets/share/rmf_demos_assets/package.zsh'
+[3.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/A_rmf_tests/install/rmf_demos_assets/share/colcon-core/packages/rmf_demos_assets)
+[3.837s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_dashboard_resources)
+[3.890s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources' for CMake module files
+[3.890s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources' for CMake config files
+[3.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_dashboard_resources', 'cmake_prefix_path')
+[3.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/hook/cmake_prefix_path.ps1'
+[3.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/hook/cmake_prefix_path.dsv'
+[3.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/hook/cmake_prefix_path.sh'
+[3.968s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/bin'
+[3.968s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/lib/pkgconfig/rmf_demos_dashboard_resources.pc'
+[3.969s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/lib/python3.10/site-packages'
+[3.969s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/bin'
+[4.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/package.ps1'
+[4.020s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/package.dsv'
+[4.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/package.sh'
+[4.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/package.bash'
+[4.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/package.zsh'
+[4.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/colcon-core/packages/rmf_demos_dashboard_resources)
+[4.040s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_panel' with build type 'ament_python'
+[4.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_panel', 'ament_prefix_path')
+[4.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_panel/share/rmf_demos_panel/hook/ament_prefix_path.ps1'
+[4.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos_panel/share/rmf_demos_panel/hook/ament_prefix_path.dsv'
+[4.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_panel/share/rmf_demos_panel/hook/ament_prefix_path.sh'
+[4.157s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.162s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.470s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_assets)
+[4.536s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_assets' for CMake module files
+[4.537s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_assets' for CMake config files
+[4.537s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_assets', 'cmake_prefix_path')
+[4.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_assets/share/rmf_demos_assets/hook/cmake_prefix_path.ps1'
+[4.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos_assets/share/rmf_demos_assets/hook/cmake_prefix_path.dsv'
+[4.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_assets/share/rmf_demos_assets/hook/cmake_prefix_path.sh'
+[4.607s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_assets/bin'
+[4.608s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_assets/lib/pkgconfig/rmf_demos_assets.pc'
+[4.608s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_assets/lib/python3.10/site-packages'
+[4.608s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_assets/bin'
+[4.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_assets/share/rmf_demos_assets/package.ps1'
+[4.643s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/A_rmf_tests/install/rmf_demos_assets/share/rmf_demos_assets/package.dsv'
+[4.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_assets/share/rmf_demos_assets/package.sh'
+[4.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_assets/share/rmf_demos_assets/package.bash'
+[4.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_assets/share/rmf_demos_assets/package.zsh'
+[4.645s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/A_rmf_tests/install/rmf_demos_assets/share/colcon-core/packages/rmf_demos_assets)
+[4.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_fleet_adapter': PYTHONPATH=/home/leo/A_rmf_tests/build/rmf_demos_fleet_adapter/prefix_override:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rmf_demos_fleet_adapter build --build-base /home/leo/A_rmf_tests/build/rmf_demos_fleet_adapter/build install --record /home/leo/A_rmf_tests/build/rmf_demos_fleet_adapter/install.log --single-version-externally-managed
+[4.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_bridges': PYTHONPATH=/home/leo/A_rmf_tests/build/rmf_demos_bridges/prefix_override:/home/leo/A_rmf_tests/install/rmf_demos_bridges/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rmf_demos_bridges build --build-base /home/leo/A_rmf_tests/build/rmf_demos_bridges/build install --record /home/leo/A_rmf_tests/build/rmf_demos_bridges/install.log --single-version-externally-managed
+[5.066s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_panel'
+[5.112s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.123s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_tasks': PYTHONPATH=/home/leo/A_rmf_tests/build/rmf_demos_tasks/prefix_override:/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rmf_demos_tasks build --build-base /home/leo/A_rmf_tests/build/rmf_demos_tasks/build install --record /home/leo/A_rmf_tests/build/rmf_demos_tasks/install.log --single-version-externally-managed
+[5.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_bridges' returned '0': PYTHONPATH=/home/leo/A_rmf_tests/build/rmf_demos_bridges/prefix_override:/home/leo/A_rmf_tests/install/rmf_demos_bridges/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rmf_demos_bridges build --build-base /home/leo/A_rmf_tests/build/rmf_demos_bridges/build install --record /home/leo/A_rmf_tests/build/rmf_demos_bridges/install.log --single-version-externally-managed
+[5.953s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_bridges' for CMake module files
+[5.953s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_bridges' for CMake config files
+[5.954s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_bridges/lib'
+[5.954s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_bridges/bin'
+[5.954s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_bridges/lib/pkgconfig/rmf_demos_bridges.pc'
+[5.955s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_bridges/lib/python3.10/site-packages'
+[5.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_bridges', 'pythonpath')
+[6.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_bridges/share/rmf_demos_bridges/hook/pythonpath.ps1'
+[6.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos_bridges/share/rmf_demos_bridges/hook/pythonpath.dsv'
+[6.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_bridges/share/rmf_demos_bridges/hook/pythonpath.sh'
+[6.034s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_bridges/bin'
+[6.034s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_bridges)
+[6.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_bridges/share/rmf_demos_bridges/package.ps1'
+[6.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/A_rmf_tests/install/rmf_demos_bridges/share/rmf_demos_bridges/package.dsv'
+[6.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_bridges/share/rmf_demos_bridges/package.sh'
+[6.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_bridges/share/rmf_demos_bridges/package.bash'
+[6.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_bridges/share/rmf_demos_bridges/package.zsh'
+[6.087s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/A_rmf_tests/install/rmf_demos_bridges/share/colcon-core/packages/rmf_demos_bridges)
+[6.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_fleet_adapter' returned '0': PYTHONPATH=/home/leo/A_rmf_tests/build/rmf_demos_fleet_adapter/prefix_override:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rmf_demos_fleet_adapter build --build-base /home/leo/A_rmf_tests/build/rmf_demos_fleet_adapter/build install --record /home/leo/A_rmf_tests/build/rmf_demos_fleet_adapter/install.log --single-version-externally-managed
+[6.156s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter' for CMake module files
+[6.156s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter' for CMake config files
+[6.157s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib'
+[6.157s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/bin'
+[6.158s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/pkgconfig/rmf_demos_fleet_adapter.pc'
+[6.158s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages'
+[6.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_fleet_adapter', 'pythonpath')
+[6.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/hook/pythonpath.ps1'
+[6.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/hook/pythonpath.dsv'
+[6.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/hook/pythonpath.sh'
+[6.219s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/bin'
+[6.220s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_fleet_adapter)
+[6.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/package.ps1'
+[6.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/package.dsv'
+[6.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/package.sh'
+[6.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/package.bash'
+[6.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/package.zsh'
+[6.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/share/colcon-core/packages/rmf_demos_fleet_adapter)
+[6.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_panel': AMENT_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/leo/A_rmf_tests/build/rmf_demos_panel/prefix_override:/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rmf_demos_panel build --build-base /home/leo/A_rmf_tests/build/rmf_demos_panel/build install --record /home/leo/A_rmf_tests/build/rmf_demos_panel/install.log --single-version-externally-managed
+[6.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_tasks' returned '0': PYTHONPATH=/home/leo/A_rmf_tests/build/rmf_demos_tasks/prefix_override:/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rmf_demos_tasks build --build-base /home/leo/A_rmf_tests/build/rmf_demos_tasks/build install --record /home/leo/A_rmf_tests/build/rmf_demos_tasks/install.log --single-version-externally-managed
+[6.591s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_tasks' for CMake module files
+[6.592s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_tasks' for CMake config files
+[6.593s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib'
+[6.593s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_tasks/bin'
+[6.593s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/pkgconfig/rmf_demos_tasks.pc'
+[6.593s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/python3.10/site-packages'
+[6.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_tasks', 'pythonpath')
+[6.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_tasks/share/rmf_demos_tasks/hook/pythonpath.ps1'
+[6.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos_tasks/share/rmf_demos_tasks/hook/pythonpath.dsv'
+[6.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_tasks/share/rmf_demos_tasks/hook/pythonpath.sh'
+[6.625s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_tasks/bin'
+[6.625s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_tasks)
+[6.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_tasks/share/rmf_demos_tasks/package.ps1'
+[6.669s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/A_rmf_tests/install/rmf_demos_tasks/share/rmf_demos_tasks/package.dsv'
+[6.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_tasks/share/rmf_demos_tasks/package.sh'
+[6.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_tasks/share/rmf_demos_tasks/package.bash'
+[6.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_tasks/share/rmf_demos_tasks/package.zsh'
+[6.671s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/A_rmf_tests/install/rmf_demos_tasks/share/colcon-core/packages/rmf_demos_tasks)
+[7.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_panel' returned '0': AMENT_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/leo/A_rmf_tests/build/rmf_demos_panel/prefix_override:/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rmf_demos_panel build --build-base /home/leo/A_rmf_tests/build/rmf_demos_panel/build install --record /home/leo/A_rmf_tests/build/rmf_demos_panel/install.log --single-version-externally-managed
+[7.300s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_panel' for CMake module files
+[7.301s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_panel' for CMake config files
+[7.302s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_panel/lib'
+[7.302s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_panel/bin'
+[7.302s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/pkgconfig/rmf_demos_panel.pc'
+[7.302s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages'
+[7.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_panel', 'pythonpath')
+[7.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_panel/share/rmf_demos_panel/hook/pythonpath.ps1'
+[7.335s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos_panel/share/rmf_demos_panel/hook/pythonpath.dsv'
+[7.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_panel/share/rmf_demos_panel/hook/pythonpath.sh'
+[7.336s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_panel/bin'
+[7.336s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_panel)
+[7.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_panel/share/rmf_demos_panel/package.ps1'
+[7.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/A_rmf_tests/install/rmf_demos_panel/share/rmf_demos_panel/package.dsv'
+[7.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_panel/share/rmf_demos_panel/package.sh'
+[7.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_panel/share/rmf_demos_panel/package.bash'
+[7.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_panel/share/rmf_demos_panel/package.zsh'
+[7.368s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/A_rmf_tests/install/rmf_demos_panel/share/colcon-core/packages/rmf_demos_panel)
+[9.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/A_rmf_tests/build/rmf_demos_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble /usr/bin/cmake --build /home/leo/A_rmf_tests/build/rmf_demos_maps -- -j8 -l8
+[9.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/A_rmf_tests/build/rmf_demos_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble /usr/bin/cmake --install /home/leo/A_rmf_tests/build/rmf_demos_maps
+[9.312s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_maps)
+[9.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/A_rmf_tests/build/rmf_demos_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble /usr/bin/cmake --install /home/leo/A_rmf_tests/build/rmf_demos_maps
+[9.351s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_maps' for CMake module files
+[9.351s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_maps' for CMake config files
+[9.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_maps', 'cmake_prefix_path')
+[9.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/hook/cmake_prefix_path.ps1'
+[9.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/hook/cmake_prefix_path.dsv'
+[9.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/hook/cmake_prefix_path.sh'
+[9.363s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_maps/bin'
+[9.363s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_maps/lib/pkgconfig/rmf_demos_maps.pc'
+[9.363s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_maps/lib/python3.10/site-packages'
+[9.364s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_maps/bin'
+[9.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/package.ps1'
+[9.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/package.dsv'
+[9.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/package.sh'
+[9.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/package.bash'
+[9.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/package.zsh'
+[9.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/A_rmf_tests/install/rmf_demos_maps/share/colcon-core/packages/rmf_demos_maps)
+[9.430s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_maps)
+[9.441s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_maps' for CMake module files
+[9.441s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_maps' for CMake config files
+[9.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_maps', 'cmake_prefix_path')
+[9.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/hook/cmake_prefix_path.ps1'
+[9.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/hook/cmake_prefix_path.dsv'
+[9.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/hook/cmake_prefix_path.sh'
+[9.454s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_maps/bin'
+[9.454s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_maps/lib/pkgconfig/rmf_demos_maps.pc'
+[9.454s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_maps/lib/python3.10/site-packages'
+[9.454s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_maps/bin'
+[9.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/package.ps1'
+[9.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/package.dsv'
+[9.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/package.sh'
+[9.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/package.bash'
+[9.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/package.zsh'
+[9.467s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/A_rmf_tests/install/rmf_demos_maps/share/colcon-core/packages/rmf_demos_maps)
+[9.467s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos' with build type 'ament_cmake'
+[9.467s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos'
+[9.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/A_rmf_tests/build/rmf_demos': AMENT_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos_panel:/home/leo/A_rmf_tests/install/rmf_demos_tasks:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:/home/leo/tfg_leo_ws/install/turtlebot3_simulations:/home/leo/tfg_leo_ws/install/turtlebot3_gazebo:/home/leo/tfg_leo_ws/install/turtlebot3_fake_node:/home/leo/ros2_ws/install/starbots_rmf:/home/leo/ros2_ws/install/ff_examples_ros2:/home/leo/ros2_ws/install/free_fleet_server_ros2:/home/leo/ros2_ws/install/free_fleet_client_ros2:/home/leo/ros2_ws/install/free_fleet:/home/leo/ros2_ws/install/barista_gazebo:/home/leo/ros2_ws/install/barista_extra_models:/home/leo/ros2_ws/install/barista_description:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble PYTHONPATH=/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leo/A_rmf_tests/build/rmf_demos -- -j8 -l8
+[9.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/A_rmf_tests/build/rmf_demos' returned '0': AMENT_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos_panel:/home/leo/A_rmf_tests/install/rmf_demos_tasks:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:/home/leo/tfg_leo_ws/install/turtlebot3_simulations:/home/leo/tfg_leo_ws/install/turtlebot3_gazebo:/home/leo/tfg_leo_ws/install/turtlebot3_fake_node:/home/leo/ros2_ws/install/starbots_rmf:/home/leo/ros2_ws/install/ff_examples_ros2:/home/leo/ros2_ws/install/free_fleet_server_ros2:/home/leo/ros2_ws/install/free_fleet_client_ros2:/home/leo/ros2_ws/install/free_fleet:/home/leo/ros2_ws/install/barista_gazebo:/home/leo/ros2_ws/install/barista_extra_models:/home/leo/ros2_ws/install/barista_description:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble PYTHONPATH=/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leo/A_rmf_tests/build/rmf_demos -- -j8 -l8
+[9.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/A_rmf_tests/build/rmf_demos': AMENT_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos_panel:/home/leo/A_rmf_tests/install/rmf_demos_tasks:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:/home/leo/tfg_leo_ws/install/turtlebot3_simulations:/home/leo/tfg_leo_ws/install/turtlebot3_gazebo:/home/leo/tfg_leo_ws/install/turtlebot3_fake_node:/home/leo/ros2_ws/install/starbots_rmf:/home/leo/ros2_ws/install/ff_examples_ros2:/home/leo/ros2_ws/install/free_fleet_server_ros2:/home/leo/ros2_ws/install/free_fleet_client_ros2:/home/leo/ros2_ws/install/free_fleet:/home/leo/ros2_ws/install/barista_gazebo:/home/leo/ros2_ws/install/barista_extra_models:/home/leo/ros2_ws/install/barista_description:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble PYTHONPATH=/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leo/A_rmf_tests/build/rmf_demos
+[9.612s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos)
+[9.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/A_rmf_tests/build/rmf_demos' returned '0': AMENT_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos_panel:/home/leo/A_rmf_tests/install/rmf_demos_tasks:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:/home/leo/tfg_leo_ws/install/turtlebot3_simulations:/home/leo/tfg_leo_ws/install/turtlebot3_gazebo:/home/leo/tfg_leo_ws/install/turtlebot3_fake_node:/home/leo/ros2_ws/install/starbots_rmf:/home/leo/ros2_ws/install/ff_examples_ros2:/home/leo/ros2_ws/install/free_fleet_server_ros2:/home/leo/ros2_ws/install/free_fleet_client_ros2:/home/leo/ros2_ws/install/free_fleet:/home/leo/ros2_ws/install/barista_gazebo:/home/leo/ros2_ws/install/barista_extra_models:/home/leo/ros2_ws/install/barista_description:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble PYTHONPATH=/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leo/A_rmf_tests/build/rmf_demos
+[9.626s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos' for CMake module files
+[9.627s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos' for CMake config files
+[9.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos', 'cmake_prefix_path')
+[9.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/hook/cmake_prefix_path.ps1'
+[9.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/hook/cmake_prefix_path.dsv'
+[9.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/hook/cmake_prefix_path.sh'
+[9.639s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos/bin'
+[9.639s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos/lib/pkgconfig/rmf_demos.pc'
+[9.639s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos/lib/python3.10/site-packages'
+[9.639s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos/bin'
+[9.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/package.ps1'
+[9.650s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/package.dsv'
+[9.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/package.sh'
+[9.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/package.bash'
+[9.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/package.zsh'
+[9.651s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/A_rmf_tests/install/rmf_demos/share/colcon-core/packages/rmf_demos)
+[9.681s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos)
+[9.693s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos' for CMake module files
+[9.694s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos' for CMake config files
+[9.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos', 'cmake_prefix_path')
+[9.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/hook/cmake_prefix_path.ps1'
+[9.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/hook/cmake_prefix_path.dsv'
+[9.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/hook/cmake_prefix_path.sh'
+[9.707s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos/bin'
+[9.707s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos/lib/pkgconfig/rmf_demos.pc'
+[9.708s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos/lib/python3.10/site-packages'
+[9.708s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos/bin'
+[9.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/package.ps1'
+[9.720s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/package.dsv'
+[9.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/package.sh'
+[9.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/package.bash'
+[9.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/package.zsh'
+[9.721s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/A_rmf_tests/install/rmf_demos/share/colcon-core/packages/rmf_demos)
+[9.721s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_gz' with build type 'ament_cmake'
+[9.721s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_gz'
+[9.733s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.733s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.785s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_gz_classic' with build type 'ament_cmake'
+[9.785s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_gz_classic'
+[9.800s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.800s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/A_rmf_tests/build/rmf_demos_gz': AMENT_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos:/home/leo/A_rmf_tests/install/rmf_demos_panel:/home/leo/A_rmf_tests/install/rmf_demos_tasks:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:/home/leo/tfg_leo_ws/install/turtlebot3_simulations:/home/leo/tfg_leo_ws/install/turtlebot3_gazebo:/home/leo/tfg_leo_ws/install/turtlebot3_fake_node:/home/leo/ros2_ws/install/starbots_rmf:/home/leo/ros2_ws/install/ff_examples_ros2:/home/leo/ros2_ws/install/free_fleet_server_ros2:/home/leo/ros2_ws/install/free_fleet_client_ros2:/home/leo/ros2_ws/install/free_fleet:/home/leo/ros2_ws/install/barista_gazebo:/home/leo/ros2_ws/install/barista_extra_models:/home/leo/ros2_ws/install/barista_description:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble PYTHONPATH=/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leo/A_rmf_tests/build/rmf_demos_gz -- -j8 -l8
+[9.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/A_rmf_tests/build/rmf_demos_gz_classic': AMENT_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos:/home/leo/A_rmf_tests/install/rmf_demos_panel:/home/leo/A_rmf_tests/install/rmf_demos_tasks:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:/home/leo/tfg_leo_ws/install/turtlebot3_simulations:/home/leo/tfg_leo_ws/install/turtlebot3_gazebo:/home/leo/tfg_leo_ws/install/turtlebot3_fake_node:/home/leo/ros2_ws/install/starbots_rmf:/home/leo/ros2_ws/install/ff_examples_ros2:/home/leo/ros2_ws/install/free_fleet_server_ros2:/home/leo/ros2_ws/install/free_fleet_client_ros2:/home/leo/ros2_ws/install/free_fleet:/home/leo/ros2_ws/install/barista_gazebo:/home/leo/ros2_ws/install/barista_extra_models:/home/leo/ros2_ws/install/barista_description:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble PYTHONPATH=/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leo/A_rmf_tests/build/rmf_demos_gz_classic -- -j8 -l8
+[9.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/A_rmf_tests/build/rmf_demos_gz' returned '0': AMENT_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos:/home/leo/A_rmf_tests/install/rmf_demos_panel:/home/leo/A_rmf_tests/install/rmf_demos_tasks:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:/home/leo/tfg_leo_ws/install/turtlebot3_simulations:/home/leo/tfg_leo_ws/install/turtlebot3_gazebo:/home/leo/tfg_leo_ws/install/turtlebot3_fake_node:/home/leo/ros2_ws/install/starbots_rmf:/home/leo/ros2_ws/install/ff_examples_ros2:/home/leo/ros2_ws/install/free_fleet_server_ros2:/home/leo/ros2_ws/install/free_fleet_client_ros2:/home/leo/ros2_ws/install/free_fleet:/home/leo/ros2_ws/install/barista_gazebo:/home/leo/ros2_ws/install/barista_extra_models:/home/leo/ros2_ws/install/barista_description:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble PYTHONPATH=/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leo/A_rmf_tests/build/rmf_demos_gz -- -j8 -l8
+[9.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/A_rmf_tests/build/rmf_demos_gz_classic' returned '0': AMENT_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos:/home/leo/A_rmf_tests/install/rmf_demos_panel:/home/leo/A_rmf_tests/install/rmf_demos_tasks:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:/home/leo/tfg_leo_ws/install/turtlebot3_simulations:/home/leo/tfg_leo_ws/install/turtlebot3_gazebo:/home/leo/tfg_leo_ws/install/turtlebot3_fake_node:/home/leo/ros2_ws/install/starbots_rmf:/home/leo/ros2_ws/install/ff_examples_ros2:/home/leo/ros2_ws/install/free_fleet_server_ros2:/home/leo/ros2_ws/install/free_fleet_client_ros2:/home/leo/ros2_ws/install/free_fleet:/home/leo/ros2_ws/install/barista_gazebo:/home/leo/ros2_ws/install/barista_extra_models:/home/leo/ros2_ws/install/barista_description:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble PYTHONPATH=/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leo/A_rmf_tests/build/rmf_demos_gz_classic -- -j8 -l8
+[9.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/A_rmf_tests/build/rmf_demos_gz': AMENT_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos:/home/leo/A_rmf_tests/install/rmf_demos_panel:/home/leo/A_rmf_tests/install/rmf_demos_tasks:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:/home/leo/tfg_leo_ws/install/turtlebot3_simulations:/home/leo/tfg_leo_ws/install/turtlebot3_gazebo:/home/leo/tfg_leo_ws/install/turtlebot3_fake_node:/home/leo/ros2_ws/install/starbots_rmf:/home/leo/ros2_ws/install/ff_examples_ros2:/home/leo/ros2_ws/install/free_fleet_server_ros2:/home/leo/ros2_ws/install/free_fleet_client_ros2:/home/leo/ros2_ws/install/free_fleet:/home/leo/ros2_ws/install/barista_gazebo:/home/leo/ros2_ws/install/barista_extra_models:/home/leo/ros2_ws/install/barista_description:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble PYTHONPATH=/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leo/A_rmf_tests/build/rmf_demos_gz
+[9.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leo/A_rmf_tests/build/rmf_demos_gz_classic': AMENT_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos:/home/leo/A_rmf_tests/install/rmf_demos_panel:/home/leo/A_rmf_tests/install/rmf_demos_tasks:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:/home/leo/tfg_leo_ws/install/turtlebot3_simulations:/home/leo/tfg_leo_ws/install/turtlebot3_gazebo:/home/leo/tfg_leo_ws/install/turtlebot3_fake_node:/home/leo/ros2_ws/install/starbots_rmf:/home/leo/ros2_ws/install/ff_examples_ros2:/home/leo/ros2_ws/install/free_fleet_server_ros2:/home/leo/ros2_ws/install/free_fleet_client_ros2:/home/leo/ros2_ws/install/free_fleet:/home/leo/ros2_ws/install/barista_gazebo:/home/leo/ros2_ws/install/barista_extra_models:/home/leo/ros2_ws/install/barista_description:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble PYTHONPATH=/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leo/A_rmf_tests/build/rmf_demos_gz_classic
+[9.919s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_gz)
+[9.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/A_rmf_tests/build/rmf_demos_gz' returned '0': AMENT_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos:/home/leo/A_rmf_tests/install/rmf_demos_panel:/home/leo/A_rmf_tests/install/rmf_demos_tasks:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:/home/leo/tfg_leo_ws/install/turtlebot3_simulations:/home/leo/tfg_leo_ws/install/turtlebot3_gazebo:/home/leo/tfg_leo_ws/install/turtlebot3_fake_node:/home/leo/ros2_ws/install/starbots_rmf:/home/leo/ros2_ws/install/ff_examples_ros2:/home/leo/ros2_ws/install/free_fleet_server_ros2:/home/leo/ros2_ws/install/free_fleet_client_ros2:/home/leo/ros2_ws/install/free_fleet:/home/leo/ros2_ws/install/barista_gazebo:/home/leo/ros2_ws/install/barista_extra_models:/home/leo/ros2_ws/install/barista_description:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble PYTHONPATH=/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leo/A_rmf_tests/build/rmf_demos_gz
+[9.932s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz' for CMake module files
+[9.933s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz' for CMake config files
+[9.933s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_gz', 'cmake_prefix_path')
+[9.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/hook/cmake_prefix_path.ps1'
+[9.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/hook/cmake_prefix_path.dsv'
+[9.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/hook/cmake_prefix_path.sh'
+[9.945s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz/bin'
+[9.945s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz/lib/pkgconfig/rmf_demos_gz.pc'
+[9.945s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz/lib/python3.10/site-packages'
+[9.945s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz/bin'
+[9.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/package.ps1'
+[9.957s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/package.dsv'
+[9.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/package.sh'
+[9.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/package.bash'
+[9.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/package.zsh'
+[9.958s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/A_rmf_tests/install/rmf_demos_gz/share/colcon-core/packages/rmf_demos_gz)
+[9.959s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_gz_classic)
+[9.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leo/A_rmf_tests/build/rmf_demos_gz_classic' returned '0': AMENT_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos:/home/leo/A_rmf_tests/install/rmf_demos_panel:/home/leo/A_rmf_tests/install/rmf_demos_tasks:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_assets:/home/leo/tfg_leo_ws/install/turtlebot3_simulations:/home/leo/tfg_leo_ws/install/turtlebot3_gazebo:/home/leo/tfg_leo_ws/install/turtlebot3_fake_node:/home/leo/ros2_ws/install/starbots_rmf:/home/leo/ros2_ws/install/ff_examples_ros2:/home/leo/ros2_ws/install/free_fleet_server_ros2:/home/leo/ros2_ws/install/free_fleet_client_ros2:/home/leo/ros2_ws/install/free_fleet:/home/leo/ros2_ws/install/barista_gazebo:/home/leo/ros2_ws/install/barista_extra_models:/home/leo/ros2_ws/install/barista_description:/home/leo/tfg_leo_ws/install/rmf_v2:/home/leo/tfg_leo_ws/install/prueba_oklk:/opt/ros/humble PYTHONPATH=/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_tasks/lib/python3.10/site-packages:/home/leo/A_rmf_tests/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leo/A_rmf_tests/build/rmf_demos_gz_classic
+[9.973s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic' for CMake module files
+[9.973s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic' for CMake config files
+[9.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_gz_classic', 'cmake_prefix_path')
+[9.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/share/rmf_demos_gz_classic/hook/cmake_prefix_path.ps1'
+[9.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/share/rmf_demos_gz_classic/hook/cmake_prefix_path.dsv'
+[9.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/share/rmf_demos_gz_classic/hook/cmake_prefix_path.sh'
+[9.987s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/bin'
+[9.987s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/lib/pkgconfig/rmf_demos_gz_classic.pc'
+[9.987s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/lib/python3.10/site-packages'
+[9.987s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/bin'
+[9.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/share/rmf_demos_gz_classic/package.ps1'
+[9.999s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/share/rmf_demos_gz_classic/package.dsv'
+[9.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/share/rmf_demos_gz_classic/package.sh'
+[9.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/share/rmf_demos_gz_classic/package.bash'
+[10.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/share/rmf_demos_gz_classic/package.zsh'
+[10.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/share/colcon-core/packages/rmf_demos_gz_classic)
+[10.016s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_gz)
+[10.028s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz' for CMake module files
+[10.029s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz' for CMake config files
+[10.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_gz', 'cmake_prefix_path')
+[10.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/hook/cmake_prefix_path.ps1'
+[10.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/hook/cmake_prefix_path.dsv'
+[10.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/hook/cmake_prefix_path.sh'
+[10.041s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz/bin'
+[10.041s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz/lib/pkgconfig/rmf_demos_gz.pc'
+[10.041s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz/lib/python3.10/site-packages'
+[10.041s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz/bin'
+[10.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/package.ps1'
+[10.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/package.dsv'
+[10.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/package.sh'
+[10.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/package.bash'
+[10.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/package.zsh'
+[10.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/A_rmf_tests/install/rmf_demos_gz/share/colcon-core/packages/rmf_demos_gz)
+[10.066s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_gz_classic)
+[10.079s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic' for CMake module files
+[10.079s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic' for CMake config files
+[10.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_gz_classic', 'cmake_prefix_path')
+[10.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/share/rmf_demos_gz_classic/hook/cmake_prefix_path.ps1'
+[10.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/share/rmf_demos_gz_classic/hook/cmake_prefix_path.dsv'
+[10.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/share/rmf_demos_gz_classic/hook/cmake_prefix_path.sh'
+[10.093s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/bin'
+[10.093s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/lib/pkgconfig/rmf_demos_gz_classic.pc'
+[10.093s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/lib/python3.10/site-packages'
+[10.093s] Level 1:colcon.colcon_core.environment:checking '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/bin'
+[10.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/share/rmf_demos_gz_classic/package.ps1'
+[10.106s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/share/rmf_demos_gz_classic/package.dsv'
+[10.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/share/rmf_demos_gz_classic/package.sh'
+[10.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/share/rmf_demos_gz_classic/package.bash'
+[10.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/share/rmf_demos_gz_classic/package.zsh'
+[10.107s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leo/A_rmf_tests/install/rmf_demos_gz_classic/share/colcon-core/packages/rmf_demos_gz_classic)
+[10.107s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.107s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.107s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.107s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.127s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.127s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.127s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.141s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.155s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leo/A_rmf_tests/install/local_setup.ps1'
+[10.156s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leo/A_rmf_tests/install/_local_setup_util_ps1.py'
+[10.157s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leo/A_rmf_tests/install/setup.ps1'
+[10.170s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leo/A_rmf_tests/install/local_setup.sh'
+[10.170s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leo/A_rmf_tests/install/_local_setup_util_sh.py'
+[10.170s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leo/A_rmf_tests/install/setup.sh'
+[10.184s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leo/A_rmf_tests/install/local_setup.bash'
+[10.184s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leo/A_rmf_tests/install/setup.bash'
+[10.197s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leo/A_rmf_tests/install/local_setup.zsh'
+[10.197s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leo/A_rmf_tests/install/setup.zsh'

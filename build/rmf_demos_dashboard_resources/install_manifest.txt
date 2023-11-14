@@ -37,3 +37,8 @@
 /home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/hotel/icons/headerLogo.png
 /home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/clinic/dashboard_config.json
 /home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/clinic/main.json
+/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/testA/dashboard_config.json
+/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/testA/main.json
+/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/testA/icons/tinyRobot.png
+/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/testA/icons/roshealth-logo-blue.png
+/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources/share/rmf_demos_dashboard_resources/testA/icons/headerLogo.png

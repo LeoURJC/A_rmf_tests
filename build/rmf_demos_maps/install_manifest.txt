@@ -11,6 +11,8 @@
 /home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/clinic/clinic.png
 /home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/office/office.png
 /home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/office/office.building.yaml
+/home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/testA/testA.png
+/home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/testA/testA.building.yaml
 /home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/campus/campus_reference.png
 /home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/campus/campus.building.yaml
 /home/leo/A_rmf_tests/install/rmf_demos_maps/share/rmf_demos_maps/campus/campus_sim.png

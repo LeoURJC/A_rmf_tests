@@ -68,21 +68,27 @@ include CMakeFiles/build.dir/progress.make
 
 CMakeFiles/build: /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/airport_terminal/main.json
 CMakeFiles/build: /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/office/main.json
+CMakeFiles/build: /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/testA/main.json
 
 /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/airport_terminal/main.json: /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/airport_terminal/dashboard_config.json
 /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/airport_terminal/main.json: /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/clinic/dashboard_config.json
 /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/airport_terminal/main.json: /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/hotel/dashboard_config.json
 /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/airport_terminal/main.json: /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/office/dashboard_config.json
+/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/airport_terminal/main.json: /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/testA/dashboard_config.json
 /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/airport_terminal/main.json: /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/build_configuration.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leo/A_rmf_tests/build/rmf_demos_dashboard_resources/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/airport_terminal/main.json, /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/office/main.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leo/A_rmf_tests/build/rmf_demos_dashboard_resources/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/airport_terminal/main.json, /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/office/main.json, /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/testA/main.json"
 	cd /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources && python3 build_configuration.py
 
 /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/office/main.json: /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/airport_terminal/main.json
 	@$(CMAKE_COMMAND) -E touch_nocreate /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/office/main.json
 
+/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/testA/main.json: /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/airport_terminal/main.json
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/testA/main.json
+
 build: CMakeFiles/build
 build: /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/airport_terminal/main.json
 build: /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/office/main.json
+build: /home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_dashboard_resources/testA/main.json
 build: CMakeFiles/build.dir/build.make
 .PHONY : build
 

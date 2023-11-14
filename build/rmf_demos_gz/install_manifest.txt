@@ -1,6 +1,7 @@
 /home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/airport_terminal.launch.xml
 /home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/battle_royale.launch.xml
 /home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/include/airport_terminal/airport_terminal_caddy.launch.xml
+/home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/testA.launch.xml
 /home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/clinic.launch.xml
 /home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/triple_H.launch.xml
 /home/leo/A_rmf_tests/install/rmf_demos_gz/share/rmf_demos_gz/office_mock_traffic_light.launch.xml

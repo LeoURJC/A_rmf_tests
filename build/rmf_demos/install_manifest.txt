@@ -16,9 +16,11 @@
 /home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/include/office/office_teleop_robot.launch.xml
 /home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/include/office/office.rviz
 /home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/include/office_mock_traffic_light/office_traffic_light_test.launch.xml
+/home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/include/testA/testA.rviz
 /home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/include/campus/campus.rviz
 /home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/include/triple_H/the_pedigree.launch.xml
 /home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/include/triple_H/rviz.rviz
+/home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/testA.launch.xml
 /home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/clinic.launch.xml
 /home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/triple_H.launch.xml
 /home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/office_mock_traffic_light.launch.xml
@@ -38,6 +40,7 @@
 /home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/config/clinic/tinyRobot_config.yaml
 /home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/config/office/tinyRobot_config.yaml
 /home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/config/office_mock_traffic_light/tinyRobot1_config.yaml
+/home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/config/testA/tinyRobot_config.yaml
 /home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/config/campus/deliveryRobot_config.yaml
 /home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/sros2/office.params.yaml
 /home/leo/A_rmf_tests/install/rmf_demos/share/rmf_demos/sros2/office_deploy.bash

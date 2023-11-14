@@ -1,0 +1,34 @@
+[2.976s] Invoking command in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_panel': CMAKE_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_gz_classic:/home/leo/A_rmf_tests/install/rmf_demos_gz:/home/leo/A_rmf_tests/install/rmf_demos:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_assets:/home/leo/tfg_leo_ws/install/turtlebot3_simulations:/home/leo/tfg_leo_ws/install/turtlebot3_gazebo:/home/leo/tfg_leo_ws/install/turtlebot3_fake_node:/home/leo/ros2_ws/install/starbots_rmf:/home/leo/ros2_ws/install/ff_examples_ros2:/home/leo/ros2_ws/install/free_fleet_server_ros2:/home/leo/ros2_ws/install/free_fleet_client_ros2:/home/leo/ros2_ws/install/free_fleet:/home/leo/ros2_ws/install/barista_gazebo:/home/leo/ros2_ws/install/barista_extra_models:/home/leo/ros2_ws/install/barista_description PYTHONPATH=/home/leo/A_rmf_tests/build/rmf_demos_panel/prefix_override:/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rmf_demos_panel build --build-base /home/leo/A_rmf_tests/build/rmf_demos_panel/build install --record /home/leo/A_rmf_tests/build/rmf_demos_panel/install.log --single-version-externally-managed
+[3.699s] running egg_info
+[3.739s] writing ../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/PKG-INFO
+[3.740s] writing dependency_links to ../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/dependency_links.txt
+[3.740s] writing entry points to ../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/entry_points.txt
+[3.740s] writing requirements to ../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/requires.txt
+[3.740s] writing top-level names to ../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/top_level.txt
+[3.806s] reading manifest file '../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/SOURCES.txt'
+[3.808s] writing manifest file '../../../build/rmf_demos_panel/rmf_demos_panel.egg-info/SOURCES.txt'
+[3.808s] running build
+[3.808s] running build_py
+[3.809s] running install
+[3.810s] /home/leo/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.810s] !!
+[3.810s] 
+[3.810s]         ********************************************************************************
+[3.810s]         Please avoid running ``setup.py`` directly.
+[3.810s]         Instead, use pypa/build, pypa/installer or other
+[3.810s]         standards-based tools.
+[3.810s] 
+[3.811s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.811s]         ********************************************************************************
+[3.811s] 
+[3.811s] !!
+[3.811s]   self.initialize_options()
+[3.824s] running install_lib
+[3.859s] running install_data
+[3.892s] running install_egg_info
+[3.930s] removing '/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel-2.2.2-py3.10.egg-info' (and everything under it)
+[3.930s] Copying ../../../build/rmf_demos_panel/rmf_demos_panel.egg-info to /home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages/rmf_demos_panel-2.2.2-py3.10.egg-info
+[3.931s] running install_scripts
+[4.247s] Installing simple_api_server script to /home/leo/A_rmf_tests/install/rmf_demos_panel/lib/rmf_demos_panel
+[4.248s] writing list of installed files to '/home/leo/A_rmf_tests/build/rmf_demos_panel/install.log'
+[4.304s] Invoked command in '/home/leo/A_rmf_tests/src/rmf_demos/rmf_demos_panel' returned '0': CMAKE_PREFIX_PATH=/home/leo/A_rmf_tests/install/rmf_demos_dashboard_resources:/home/leo/A_rmf_tests/install/rmf_demos_gz_classic:/home/leo/A_rmf_tests/install/rmf_demos_gz:/home/leo/A_rmf_tests/install/rmf_demos:/home/leo/A_rmf_tests/install/rmf_demos_maps:/home/leo/A_rmf_tests/install/rmf_demos_assets:/home/leo/tfg_leo_ws/install/turtlebot3_simulations:/home/leo/tfg_leo_ws/install/turtlebot3_gazebo:/home/leo/tfg_leo_ws/install/turtlebot3_fake_node:/home/leo/ros2_ws/install/starbots_rmf:/home/leo/ros2_ws/install/ff_examples_ros2:/home/leo/ros2_ws/install/free_fleet_server_ros2:/home/leo/ros2_ws/install/free_fleet_client_ros2:/home/leo/ros2_ws/install/free_fleet:/home/leo/ros2_ws/install/barista_gazebo:/home/leo/ros2_ws/install/barista_extra_models:/home/leo/ros2_ws/install/barista_description PYTHONPATH=/home/leo/A_rmf_tests/build/rmf_demos_panel/prefix_override:/home/leo/A_rmf_tests/install/rmf_demos_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rmf_demos_panel build --build-base /home/leo/A_rmf_tests/build/rmf_demos_panel/build install --record /home/leo/A_rmf_tests/build/rmf_demos_panel/install.log --single-version-externally-managed
