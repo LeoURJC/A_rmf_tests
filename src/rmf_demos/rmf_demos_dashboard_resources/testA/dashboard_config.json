@@ -1,0 +1,34 @@
+{
+  "world_name" : "TestA World",  
+  "valid_task": ["Delivery", "Loop"],
+  "task": {
+    "Delivery": {
+      "option": {
+        "objet": {
+          "pickup_place_name": "objet",
+          "pickup_dispenser": "pickup",
+          "dropoff_place_name": "room1",
+          "dropoff_ingestor": "person1",
+          "dropoff_place_name": "room2",
+          "dropoff_ingestor": "person2",
+        }
+      }
+    },
+    "Loop": {
+      "places": [
+        "room1",
+        "room2",
+        "objet",
+        "robot1"
+      ]
+    },
+    "Clean": {
+    },
+    "Station": {
+    },
+    "Patrol": {
+    },
+    "Charging": {
+    }
+  }
+}
