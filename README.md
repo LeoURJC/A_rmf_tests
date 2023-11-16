@@ -9,3 +9,5 @@ The enviroment of gazebo works and swpans the tinyRobot. The enviroment of rviz 
 
 ![Screenshot from 2023-11-16 09-42-34](https://github.com/LeoURJC/A_rmf_tests/assets/100283601/e704642d-db18-4ddc-b4a0-115142351c93)
 
+
+
