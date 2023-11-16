@@ -4,7 +4,7 @@
   "task": {
     "Delivery": {
       "option": {
-        "objet": {
+        "objet_delivery": {
           "pickup_place_name": "objet",
           "pickup_dispenser": "pickup",
           "dropoff_place_name": "room1",

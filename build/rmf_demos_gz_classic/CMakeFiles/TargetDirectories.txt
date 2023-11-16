@@ -1,9 +1,0 @@
-/home/leo/A_rmf_tests/build/rmf_demos_gz_classic/CMakeFiles/uninstall.dir
-/home/leo/A_rmf_tests/build/rmf_demos_gz_classic/CMakeFiles/rmf_demos_gz_classic_uninstall.dir
-/home/leo/A_rmf_tests/build/rmf_demos_gz_classic/CMakeFiles/test.dir
-/home/leo/A_rmf_tests/build/rmf_demos_gz_classic/CMakeFiles/edit_cache.dir
-/home/leo/A_rmf_tests/build/rmf_demos_gz_classic/CMakeFiles/rebuild_cache.dir
-/home/leo/A_rmf_tests/build/rmf_demos_gz_classic/CMakeFiles/list_install_components.dir
-/home/leo/A_rmf_tests/build/rmf_demos_gz_classic/CMakeFiles/install.dir
-/home/leo/A_rmf_tests/build/rmf_demos_gz_classic/CMakeFiles/install/local.dir
-/home/leo/A_rmf_tests/build/rmf_demos_gz_classic/CMakeFiles/install/strip.dir

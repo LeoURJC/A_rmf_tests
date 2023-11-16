@@ -4,12 +4,14 @@ package_name = 'rmf_demos_tasks'
 
 setup(
     name=package_name,
-    version='2.2.2',
+    version='2.0.3',
     packages=[package_name],
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/'+package_name, [package_name+'/airport_docker_config.yaml']),
+        ('share/'+package_name, [package_name+'/hotel_cleaner_config.yaml']),
     ],
     install_requires=['setuptools'],
     author='Grey',
@@ -31,7 +33,6 @@ setup(
           'dispatch_delivery = rmf_demos_tasks.dispatch_delivery:main',
           'dispatch_clean = rmf_demos_tasks.dispatch_clean:main',
           'dispatch_go_to_place = rmf_demos_tasks.dispatch_go_to_place:main',
-          'dispatch_teleop = rmf_demos_tasks.dispatch_teleop:main',
           'mock_docker = rmf_demos_tasks.mock_docker:main',
           'teleop_robot = rmf_demos_tasks.teleop_robot:main',
         ],

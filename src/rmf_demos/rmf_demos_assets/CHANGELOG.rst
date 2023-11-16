@@ -2,16 +2,7 @@
 Changelog for package rmf_demos_assets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.2 (2023-08-28)
-------------------
-
-2.2.1 (2023-08-10)
-------------------
-
-2.2.0 (2023-06-08)
-------------------
-
-2.1.0 (2023-06-06)
+2.0.3 (2023-06-05)
 ------------------
 * Switch to rst changelogs (`#182 <https://github.com/open-rmf/rmf_demos/pull/182>`_)
 * Version updates from latest release synced to main (`#167 <https://github.com/open-rmf/rmf_demos/pull/167>`_)

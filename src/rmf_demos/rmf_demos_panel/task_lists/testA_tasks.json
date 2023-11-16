@@ -1,0 +1,4 @@
+[
+{"task_type":"Delivery", "start_time":0, "priority":0, "description": {"option":"objet_delivery"}},
+{"task_type":"Loop", "start_time":0, "priority":0, "description": {"num_loops":5, "start_name":"room1", "finish_name":"person1"}}
+]

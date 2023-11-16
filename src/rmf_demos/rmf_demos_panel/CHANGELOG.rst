@@ -2,23 +2,11 @@
 Changelog for package rmf_demos_panel
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.2 (2023-08-28)
-------------------
-
-2.2.1 (2023-08-10)
-------------------
-* Fix typo in readme (`#184 <https://github.com/open-rmf/rmf_demos/pull/184>`_)
-* Contributors: Arjo Chakravarty, Yadunund
-
-2.2.0 (2023-06-08)
-------------------
-
-2.1.0 (2023-06-06)
+2.0.3 (2023-06-05)
 ------------------
 * Switch to rst changelogs (`#182 <https://github.com/open-rmf/rmf_demos/pull/182>`_)
-* Fix conversion from minutes to milliseconds (`#176 <https://github.com/open-rmf/rmf_demos/pull/176>`_)
 * Version updates from latest release synced to main (`#167 <https://github.com/open-rmf/rmf_demos/pull/167>`_)
-* Contributors: Esteban Martinena Guerrero, Grey, Yadunund
+* Contributors: Esteban Martinena Guerrero, Yadunund
 
 2.0.2 (2022-10-10)
 ------------------

@@ -4,7 +4,7 @@
   <arg name="use_sim_time" default="false"/>
 
   <!-- Common launch -->
-  <include file="$(find-pkg-share rmf_demos)/testA.launch.xml">
+  <include file="$(find-pkg-share rmf_demos)/common.launch.xml">
     <arg name="use_sim_time" value="$(var use_sim_time)"/>
     <arg name="viz_config_file" value ="$(find-pkg-share rmf_demos)/include/testA/testA.rviz"/>
     <arg name="config_file" value="$(find-pkg-share rmf_demos_maps)/testA/testA.building.yaml"/>
@@ -15,7 +15,7 @@
   <group>
     <include file="$(find-pkg-share rmf_demos_fleet_adapter)/launch/fleet_adapter.launch.xml">
       <arg name="use_sim_time" value="$(var use_sim_time)"/>
-      <arg name="nav_graph_file" value="$(find-pkg-share rmf_demos_maps)/maps/office/nav_graphs/0.yaml" />
+      <arg name="nav_graph_file" value="$(find-pkg-share rmf_demos_maps)/maps/testA/nav_graphs/0.yaml" />
       <arg name="config_file" value="$(find-pkg-share rmf_demos)/config/testA/tinyRobot_config.yaml"/>
     </include>
   </group>

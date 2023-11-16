@@ -93,40 +93,11 @@ class TaskRequester(Node):
         request["unix_millis_earliest_start_time"] = start_time
 
         # Define task request category
-        request["category"] = "compose"
+        request["category"] = "clean"
 
         # Define task request description with cleaning zone
-        description = {}  # task_description_Compose.json
-        description["category"] = "clean"
-        description["phases"] = []
-        activities = []
-
-        # Send robot to start waypoint first
-        activities.append({
-            "category": "go_to_place",
-            "description": self.args.clean_start
-        })
-        # Send a perform action request for robot to clean area
-        activities.append({
-            "category": "perform_action",
-            "description":
-            {
-                "unix_millis_action_duration_estimate": 60000,
-                "category": "clean",
-                "expected_finish_location": self.args.clean_start,
-                "description":
-                {
-                    "zone": self.args.clean_start
-                },
-                "use_tool_sink": True
-            }
-        })
-
-        description["phases"].append({
-            "activity": {
-                "category": "sequence",
-                "description": {"activities": activities}}
-        })
+        description = {}  # task_description_Clean.json
+        description["zone"] = self.args.clean_start
 
         request["description"] = description
         payload["request"] = request
